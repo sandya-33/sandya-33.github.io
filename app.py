@@ -91,4 +91,5 @@ def play_again():
 
 if __name__ == "__main__":
     start_new_game()
-    app.run(debug=True)
+    # app.run(debug=True)
+    app.run(debug=Flase,host='0.0.0.0')
